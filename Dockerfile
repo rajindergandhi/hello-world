@@ -3,5 +3,5 @@ From tomcat
 
 # Maintainer 
 MAINTAINER "rajindergandhi@gmail.com" 
-COPY ./webapp.war /usr/local/tomcat/webapps
+COPY /opt/apache-tomcat-9.0.39/webapps/webapp.war /usr/local/tomcat/webapps
 
